@@ -1,0 +1,16 @@
+10-06 21:35:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 178:Plugin executed on: 'win32'
+10-06 21:35:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 179:Plugin executed with python version: '3.11.5 (main, Jul 16 2024, 08:01:06) [MSC v.1939 64 bit (AMD64)]'
+10-06 21:35:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 180:KiCad build version: 8.0.4
+10-06 21:35:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 181:Plugin version: 3.0.1
+10-06 21:35:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 182:Frame repr: <wx._core.Frame object at 0x00000201043F04C0>
+10-06 21:35:58 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 200:Anchor footprint reference is 'J1'
+10-06 21:36:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 209:Save layout chosen
+10-06 21:36:00 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 453:Working on C:\Users\Will Desktop\OneDrive\Documents\GitHub\KiCAD-Robo-Dog\Arduino_Motor_Shield_Mini\Arduino_Motor_Shield\Arduino_Motor_Shield.kicad_pcb
+10-06 21:36:00 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+10-06 21:36:00 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 458:Saving the current board temporary in order to leave current layout intact
+10-06 21:36:00 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 464:Saving board as tempfile: C:\Users\WILLDE~1\AppData\Local\Temp\temp_board_file_for_save.kicad_pcb
+10-06 21:36:00 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 469:Loaded temp boardfile: C:\Users\WILLDE~1\AppData\Local\Temp\temp_board_file_for_save.kicad_pcb
+10-06 21:36:00 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 470:Get project schematics and layout data
+10-06 21:36:00 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+10-06 21:36:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 91:populating the levels with []
+10-06 21:36:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 92:populating the levels with []
