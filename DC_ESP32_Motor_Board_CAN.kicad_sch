@@ -5,21 +5,21 @@
 	(uuid "7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
+			(property "Value" "Conn_01x03_Pin"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,7 +80,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
+			(symbol "Conn_01x03_Pin_1_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 0.8636 -2.54)
@@ -96,6 +96,18 @@
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -127,8 +139,19 @@
 						(type outline)
 					)
 				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -146,7 +169,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -163,101 +186,17 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5268,6 +5207,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 36.83) (xy 57.15 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b66174e-7374-4221-9190-ec3f96664a41")
+	)
+	(wire
+		(pts
 			(xy 257.81 86.36) (xy 260.35 86.36)
 		)
 		(stroke
@@ -5295,6 +5244,16 @@
 			(type default)
 		)
 		(uuid "1f425fb3-9d16-4b8a-abbf-15534e4c6380")
+	)
+	(wire
+		(pts
+			(xy 24.13 148.59) (xy 24.13 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fffed74-2a88-499a-a6de-08f3ca0a16cc")
 	)
 	(wire
 		(pts
@@ -6308,7 +6267,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 40.64) (xy 33.02 44.45)
+			(xy 33.02 36.83) (xy 33.02 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6665,6 +6624,28 @@
 		(uuid "47df8621-47bc-4c59-bdee-355bfde977e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 165.4409 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_2"
+		(shape input)
+		(at 24.13 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49c0c2e9-c1d7-429d-b160-1e24b084eb4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.4924 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,28 +7183,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_2"
-		(shape input)
-		(at 29.21 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9704ac7-eeeb-4365-8abd-87566db0a71a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.8476 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO_1"
 		(shape input)
 		(at 33.02 135.89 0)
@@ -7269,33 +7228,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 139.7 22.86 0)
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 29.21 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0948de59-05e9-40ae-aa36-0107b2f067e3")
 		(property "Reference" "J8"
-			(at 140.335 17.78 0)
+			(at 28.575 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 140.335 20.32 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 28.702 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 139.7 22.86 0)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+			(at 29.21 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +7262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 22.86 0)
+			(at 29.21 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,8 +7270,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 139.7 22.86 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 29.21 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,6 +7284,9 @@
 		)
 		(pin "2"
 			(uuid "ae0817b2-e9ed-419c-b30d-077c2c4eb301")
+		)
+		(pin "3"
+			(uuid "d12f4439-b44f-4944-b659-7353f4f0eeb4")
 		)
 		(instances
 			(project ""
@@ -7868,7 +7829,7 @@
 		(at 259.08 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8255,71 +8216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 29.21 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "247ef2f1-61ff-479b-a464-96025e75d195")
-		(property "Reference" "TP1"
-			(at 25.908 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 25.908 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 29.21 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 29.21 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e621372-e5e8-4c1d-88eb-c8252bed457c")
-		)
-		(instances
-			(project ""
-				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 166.37 135.89 180)
 		(unit 1)
@@ -8591,6 +8487,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 24.13 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e026703-a8f7-458f-9746-096dbb6bf3e2")
+		(property "Reference" "#PWR031"
+			(at 17.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25700470-c704-4e13-905e-556c4cb5de2c")
+		)
+		(instances
+			(project "DC_ESP32_Motor_Board_CAN"
+				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 135.89 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8847,6 +8808,71 @@
 			(project "Arduino_Motor_Shield"
 				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3629d8e7-d029-4976-9060-a3fde94e0f60")
+		(property "Reference" "#PWR044"
+			(at 96.52 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4375f559-ca24-4ba1-b65a-034c30320932")
+		)
+		(instances
+			(project "DC_ESP32_Motor_Board_CAN"
+				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9796,16 +9822,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 33.02 40.64 0)
+		(at 24.13 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5655e06d-4855-4b15-973c-6dc3f46a15b8")
-		(property "Reference" "#PWR01"
-			(at 33.02 44.45 0)
+		(uuid "54db00c2-7d60-4ccc-8026-152f0c808790")
+		(property "Reference" "#PWR030"
+			(at 27.94 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9814,15 +9839,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 33.02 35.56 0)
+			(at 19.05 152.4001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 40.64 0)
+			(at 24.13 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9831,7 +9857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 40.64 0)
+			(at 24.13 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9840,7 +9866,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 24.13 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17c85d0e-9d2f-49c1-8193-94aecc5ffde3")
+		)
+		(instances
+			(project "DC_ESP32_Motor_Board_CAN"
+				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 33.02 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5655e06d-4855-4b15-973c-6dc3f46a15b8")
+		(property "Reference" "#PWR01"
 			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10281,6 +10373,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 96.52 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd2bd5a-ed4a-45ff-9ccb-bfa6c053e6ac")
+		(property "Reference" "#PWR043"
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 96.52 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b67bee9-5c16-4280-a8a4-26b872885e16")
+		)
+		(instances
+			(project "DC_ESP32_Motor_Board_CAN"
+				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 208.28 50.8 180)
 		(unit 1)
@@ -10350,78 +10508,11 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 144.78 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a6e09dd-6155-487c-9795-7401dae0152f")
-		(property "Reference" "#PWR031"
-			(at 140.97 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 148.59 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b17df0f-328a-4dbd-bc97-9f737abd6426")
-		)
-		(instances
-			(project "DC_ESP32_Motor_Board_CAN"
-				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Personal:Reg_Board")
 		(at 194.31 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10495,7 +10586,7 @@
 		(at 256.54 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11259,7 +11350,7 @@
 		(at 243.84 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11676,6 +11767,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 96.52 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a423b846-3eb2-4734-8289-ba72f4717073")
+		(property "Reference" "C8"
+			(at 97.282 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 97.536 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 97.4852 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1106a74-9705-49d4-86e5-4ed15319afe5")
+		)
+		(pin "2"
+			(uuid "67565b16-576c-41c6-acc0-4a4262fabe4a")
+		)
+		(instances
+			(project "DC_ESP32_Motor_Board_CAN"
+				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 60.96 180)
 		(unit 1)
@@ -11808,71 +11968,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 144.78 22.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab5a89b4-196d-40a0-bdfa-c07fb39ec080")
-		(property "Reference" "#PWR030"
-			(at 151.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd009968-63f0-4aab-b9e1-8a7988a487a0")
-		)
-		(instances
-			(project "DC_ESP32_Motor_Board_CAN"
-				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Transistor_MOSFET_AKL:BSS138")
 		(at 54.61 62.23 90)
 		(mirror x)
@@ -11961,8 +12056,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3v"
-			(at 277.876 91.694 90)
+		(property "Value" "MM1Z3V3"
+			(at 275.59 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12085,7 +12180,7 @@
 		(at 119.38 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12770,7 +12865,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 57.15 46.99 0)
+		(at 57.15 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12779,7 +12874,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5ed2f18-5d2a-4dbd-bab3-b4bb7347bedc")
 		(property "Reference" "#PWR023"
-			(at 57.15 50.8 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12788,7 +12883,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 57.15 41.91 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,7 +12891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 46.99 0)
+			(at 57.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12805,7 +12900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 46.99 0)
+			(at 57.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12814,7 +12909,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 57.15 46.99 0)
+			(at 57.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13874,7 +13969,7 @@
 		(at 256.54 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14085,7 +14180,7 @@
 		(at 264.16 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
