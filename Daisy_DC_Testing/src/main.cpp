@@ -6,17 +6,17 @@ int driveMotor(bool, bool, int);
 int getCurrent();
 
 void setup() {
-  // put your setup code here, to run once:
+  setupPins();
+  
+}
+
+void loop() {
   delay(1000);
   driveMotor(true, false, 200);
   delay(1000);
   driveMotor(false, true, 200);
   delay(1000);
   driveMotor(true, true, 0);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
 }
 
 // control H-Bridge motor driver
