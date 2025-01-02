@@ -12183,10 +12183,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b26ae969-3364-4301-90d1-d758c9fe1d82")
 		(property "Reference" "U1"
-			(at 118.745 88.9 0)
+			(at 119.38 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12194,7 +12193,7 @@
 			)
 		)
 		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3"
-			(at 118.745 91.44 0)
+			(at 119.38 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
