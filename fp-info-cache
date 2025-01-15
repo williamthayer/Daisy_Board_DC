@@ -1,4 +1,4 @@
-24552292096991113
+24555765388464680
 Arduino
 Arduino_101_Shield
 https://docs.arduino.cc/retired/boards/arduino-101-619
@@ -54915,6 +54915,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 CutomParts
+3313J-1-504E 500K Pot
+
+
+0
+3
+3
+CutomParts
 AT41 Timer
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
@@ -54939,6 +54946,13 @@ CutomParts
 Iphone 15 speaker
 
 
+0
+2
+2
+CutomParts
+Jumper Connected 2 Pin Small
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
+net tie solder jumper bridged
 0
 2
 2

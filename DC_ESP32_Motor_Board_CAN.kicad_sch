@@ -632,6 +632,343 @@
 				)
 			)
 		)
+		(symbol "Diode:1N5820"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5820"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?201AD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5820_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5820_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
@@ -5654,23 +5991,23 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 35.56) (xy 208.28 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d78f18b-0e64-4747-97cf-40c3ec47819a")
-	)
-	(wire
-		(pts
-			(xy 208.28 35.56) (xy 234.95 35.56)
+			(xy 214.63 39.37) (xy 226.06 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4dac2591-7ef8-43c3-aaef-be8ffb8d1dcf")
+	)
+	(wire
+		(pts
+			(xy 208.28 22.86) (xy 203.2 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554fb0b5-9bcb-4602-88e4-2ce9a5fe6280")
 	)
 	(wire
 		(pts
@@ -5701,6 +6038,16 @@
 			(type default)
 		)
 		(uuid "57656c2b-fc05-4039-acbe-abcca36013e4")
+	)
+	(wire
+		(pts
+			(xy 226.06 35.56) (xy 234.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d7c5db-1b84-4f4f-b50d-e54830d02601")
 	)
 	(wire
 		(pts
@@ -5814,6 +6161,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 54.61) (xy 196.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6936655e-9e68-4d47-a101-307d580caf14")
+	)
+	(wire
+		(pts
 			(xy 72.39 26.67) (xy 92.71 26.67)
 		)
 		(stroke
@@ -5871,16 +6228,6 @@
 			(type default)
 		)
 		(uuid "6fdf6ffc-06fb-462a-9c28-acae2036af64")
-	)
-	(wire
-		(pts
-			(xy 208.28 44.45) (xy 208.28 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "702e255d-93bc-45a7-9843-c7d88ab43da2")
 	)
 	(wire
 		(pts
@@ -6184,6 +6531,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 54.61) (xy 196.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6957ac8-e0f4-41e5-b860-79531c559119")
+	)
+	(wire
+		(pts
 			(xy 208.28 57.15) (xy 232.41 57.15)
 		)
 		(stroke
@@ -6261,6 +6618,16 @@
 			(type default)
 		)
 		(uuid "b3fa4222-deb0-46ca-8e9c-deb1e56d20d6")
+	)
+	(wire
+		(pts
+			(xy 196.85 39.37) (xy 196.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a3d214-3922-44be-9d11-cbca32e34afa")
 	)
 	(wire
 		(pts
@@ -6494,6 +6861,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 22.86) (xy 215.9 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9fb095-ad9a-475b-9a7c-83a56dc863eb")
+	)
+	(wire
+		(pts
 			(xy 29.21 53.34) (xy 26.67 53.34)
 		)
 		(stroke
@@ -6561,6 +6938,16 @@
 			(type default)
 		)
 		(uuid "ebed1ad9-e570-40a8-96e2-d3dd625d7399")
+	)
+	(wire
+		(pts
+			(xy 196.85 39.37) (xy 207.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1bff47-347f-42e4-8eea-f5af0ca64ce4")
 	)
 	(wire
 		(pts
@@ -7483,6 +7870,29 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 204.47 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e2102fa-1647-42c0-ba79-8c4302cc8847")
+		(property "Netclass" "Low Power"
+			(at 205.1685 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -9352,7 +9762,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 203.2 22.86 270)
+		(at 219.71 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9361,7 +9771,7 @@
 		(fields_autoplaced yes)
 		(uuid "48d4b18a-03a2-4402-a692-9c6f9d5d0e2d")
 		(property "Reference" "#PWR033"
-			(at 199.39 22.86 0)
+			(at 215.9 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +9780,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 207.01 22.86 90)
+			(at 223.52 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +9789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 22.86 0)
+			(at 219.71 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9388,7 +9798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 22.86 0)
+			(at 219.71 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9397,7 +9807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 22.86 0)
+			(at 219.71 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,6 +10576,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 196.85 46.99 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c34f0f0-21be-4b26-a0af-be1dbbcff58e")
+		(property "Reference" "JP2"
+			(at 191.516 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 174.752 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CutomParts:Jumper Connected 2 Pin Small"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38ac3ec9-106a-4553-bbe7-6b340c698690")
+		)
+		(pin "1"
+			(uuid "495afdd5-a2b4-4e58-9f6f-601a1bd13652")
+		)
+		(instances
+			(project "DC_ESP32_Motor_Board_CAN"
+				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 147.32 120.65 180)
 		(unit 1)
@@ -10501,7 +10980,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 208.28 50.8 180)
+		(at 204.47 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10509,7 +10988,7 @@
 		(dnp no)
 		(uuid "70136b8e-e751-4c01-91b4-0fd462e126d2")
 		(property "Reference" "R16"
-			(at 212.09 49.53 0)
+			(at 206.502 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10518,7 +10997,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 212.09 52.07 0)
+			(at 206.502 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,7 +11006,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 210.058 50.8 90)
+			(at 204.47 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +11015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 50.8 0)
+			(at 204.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,7 +11024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 50.8 0)
+			(at 204.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13737,7 +14216,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 208.28 40.64 90)
+		(at 210.82 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13746,25 +14225,23 @@
 		(fields_autoplaced yes)
 		(uuid "d30fcb56-8858-4a6b-9cd0-149e0a227dbc")
 		(property "Reference" "D1"
-			(at 212.09 40.9574 90)
+			(at 209.2325 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "KT-0603R"
-			(at 212.09 43.4974 90)
+			(at 209.2325 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 208.28 40.64 0)
+			(at 210.82 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13773,7 +14250,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 40.64 0)
+			(at 210.82 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13782,7 +14259,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 208.28 40.64 0)
+			(at 210.82 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13934,6 +14411,74 @@
 			(project "Arduino_Motor_Shield"
 				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5820")
+		(at 212.09 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6e3fd2c-2625-44fc-b8b7-cbea6c4d0306")
+		(property "Reference" "D2"
+			(at 211.7725 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 211.7725 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 212.09 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+			(at 212.09 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(at 212.09 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2719738a-2c18-4d77-a86b-c70b7b738eed")
+		)
+		(pin "2"
+			(uuid "745e277d-c183-4461-b360-a14c4262ccb6")
+		)
+		(instances
+			(project "DC_ESP32_Motor_Board_CAN"
+				(path "/7e6422eb-c3b1-4c4a-b69f-f4b10fde7fbc"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14530,7 +15075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST_Sorted:Xt30 Female 90 1 mount removed"
+		(property "Footprint" "JST_Sorted:xt30_90_Female"
 			(at 273.05 -28.88 0)
 			(effects
 				(font
